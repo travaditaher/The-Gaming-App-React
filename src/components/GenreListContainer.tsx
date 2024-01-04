@@ -7,7 +7,7 @@ interface GenreListContainerProps {
 
 const GenreListContainer = ({ children }: GenreListContainerProps) => {
   return (
-    <Box paddingY="5px" height="55px" borderRadius={2}>
+    <Box paddingY="5px" height="60px" borderRadius={2}>
       <Box>
         {children}
       </Box>
