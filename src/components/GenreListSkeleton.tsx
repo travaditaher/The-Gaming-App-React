@@ -1,14 +1,14 @@
 import { Card, CardBody, Skeleton, SkeletonText } from "@chakra-ui/react";
 
-const GameCardSkeleton = () => {
+const GenreListSkeleton = () => {
   return (
     <Card>
-      <Skeleton height="200px" />
+      {/* <Skeleton height="30px" /> */}
       <CardBody>
-        <SkeletonText />
+        <SkeletonText noOfLines={1} />
       </CardBody>
     </Card>
   );
 };
 
-export default GameCardSkeleton;
+export default GenreListSkeleton;
