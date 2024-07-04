@@ -1,0 +1,33 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:126173724370:loadbalancer/app/Prod-elb/40b931ebcd807c34",
+            "DNSName": "Prod-elb-1783485290.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2024-02-15T03:18:32.450000+00:00",
+            "LoadBalancerName": "Prod-elb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0adc091a84bd5739b",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-0cf0e83eef52057ee",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-0dcdec3719e8d0d77",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-09056d66d53769878"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}
